@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Socket.io</title>
+    <title>Fiverr - Chat</title>
 
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo" src="https://i.ibb.co/JR5Wy6J/Fiverr-Logo-Green-Green-RGB.png" alt="Fiverr"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav px-5">
+    
+            </ul>
+            <ul class="navbar-nav px-5">
+                <li class="nav-item">
+                    <a class="nav-link text-success" aria-current="page" href="#">Fiverr Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">€EUR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Become a Seller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-success" href="#">Join</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="chatdefou">
     <aside>
         <ul id="tabs">
             <li class="active" data-room="general"># Général</li>
@@ -26,8 +64,106 @@
             <button>Envoyer</button>
         </form>
     </main>
+</section>
     <!-- On va chercher socket.io.js -->
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/scripts.js"></script>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Categories</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Graphics and Design</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Digital Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Writing and Translation</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Video and Animation</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">About</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Carees</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Press and News</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Partnerships</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Support</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Help</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Trust and safety</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Selling on Fiverr</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Buying on Fiverr</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Community</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Events</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Forum</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark text-decoration-none">Community Standards</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <hr>
+        <!-- Copyright -->
+        <div class="text-center p-3"> <a class="navbar-brand" href="#"><img class="logo" src="https://i.ibb.co/JR5Wy6J/Fiverr-Logo-Green-Green-RGB.png" alt="Fiverr"></a> © Fiverr International Ltd. 2021 </div>
+        <!-- Copyright -->
+    </footer>
 </body>
 </html>
